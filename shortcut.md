@@ -114,3 +114,4 @@ trying to merge two branches that modify the same lines of code
 # git diff
 
 ===> to see defferences between two commits
+life is long
