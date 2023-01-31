@@ -8,7 +8,7 @@
 
 # git config --global
 
-==> to update or create user crendentials
+==> to update or create user crendentials.
 
 # git init
 
