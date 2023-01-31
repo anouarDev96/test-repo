@@ -33,3 +33,19 @@
 # git log
 
 ===> it is used to log the commits
+
+# shortcut : git commit -a -m "<messsage here>"
+
+===> this command add the files to the staging area and commit them
+
+# git remote
+
+===> check if your local repository is linked with any remote repository
+
+# git remote add origin https://github.com/anouarDev96/test-repo.git
+
+===> origin is the name of the remote repository and url (its location)
+
+# git remote -v || git remote show origin
+
+===> show information about remote repository
