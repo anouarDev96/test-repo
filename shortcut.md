@@ -29,3 +29,7 @@
 # git reset .
 
 ===> is used to remove the files that have been added to the staging area
+
+# git log
+
+===> it is used to log the commits
