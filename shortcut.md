@@ -87,3 +87,7 @@
 # git branch -d <name of the branch> (d -> softdelete, D -> hard (forced) delete)
 
 ===> delete a specific branch
+
+# git checkout <name of the branch>
+
+===> switch to the targeted branch
