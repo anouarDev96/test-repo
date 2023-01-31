@@ -55,3 +55,15 @@
 # -u ::===> allow us to use cammand "<git pull>" without any additional arguments
 
 ===> push the changes to the remote repository
+
+# git fetch
+
+===> fetches all latest changes fron the remote repository
+
+# git merge origin/master
+
+===> marges between local repository master and remote repository master
+
+# git pull (and without -u flag) origin master
+
+===> combination of( fetch + merge) with one command
