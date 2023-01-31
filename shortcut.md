@@ -99,3 +99,18 @@
 # git checkout -
 
 ===> to switch to most recent branch that you've switched from
+
+# what is merge conflict ?
+
+===>
+trying to merge two branches that modify the same lines of code
+
+# how to resolve merge conflict?
+
+===> 1/ which files are afected 2/ choose the correct code 3/ commit 4/ or go back to the state before the merge
+
+# git merge --abort
+
+# git diff
+
+===> to see defferences between two commits
