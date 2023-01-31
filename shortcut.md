@@ -91,3 +91,11 @@
 # git checkout <name of the branch>
 
 ===> switch to the targeted branch
+
+# git checkout -b <name of the branch>
+
+===> create and switch to that branch
+
+# git checkout -
+
+===> to switch to most recent branch that you've switched from
