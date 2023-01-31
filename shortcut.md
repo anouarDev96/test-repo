@@ -115,4 +115,10 @@ trying to merge two branches that modify the same lines of code
 
 ===> to see defferences between two commits
 
-life is long
+# what is a Fork ?
+
+===> 1/ copy the repo into your own account 2/ it also keeps link to the original repo 3/ the original is named "UPSTREAM" repository 4/ work on a feature then send pull request to merge that code to the original from the fork 5/ the author of the original repo can review your change and the decide if he should merge or not
+
+# how to fork ?
+
+===> 1/ pick a repository 2/ click on fork 3/ clone the project locally 4/ switch the branch 5/ add a feature 6/ stage the changes 7/ commit the changes 8/ git push origin <name of the branch> 6/ wait for the review by the author
