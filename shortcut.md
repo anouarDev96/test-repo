@@ -67,3 +67,23 @@
 # git pull (and without -u flag) origin master
 
 ===> combination of( fetch + merge) with one command
+
+# git clone
+
+===> allow to clone remote repository
+
+# git branch
+
+===> list all the branches
+
+# git branch - M <name of the branch>
+
+===> to rename a specific branch
+
+# git branch <name of the branch>
+
+===> to create a new branch
+
+# git branch -d <name of the branch> (d -> softdelete, D -> hard (forced) delete)
+
+===> delete a specific branch
