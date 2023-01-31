@@ -49,3 +49,9 @@
 # git remote -v || git remote show origin
 
 ===> show information about remote repository
+
+# git push origin master -u
+
+# -u ::===> allow us to use cammand "<git pull>" without any additional arguments
+
+===> push the changes to the remote repository
