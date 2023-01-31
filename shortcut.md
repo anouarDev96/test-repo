@@ -115,4 +115,4 @@ trying to merge two branches that modify the same lines of code
 
 ===> to see defferences between two commits
 
-life is short
+life is long
