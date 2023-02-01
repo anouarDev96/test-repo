@@ -122,3 +122,60 @@ trying to merge two branches that modify the same lines of code
 # how to fork ?
 
 ===> 1/ pick a repository 2/ click on fork 3/ clone the project locally 4/ switch the branch 5/ add a feature 6/ stage the changes 7/ commit the changes 8/ git push origin <name of the branch> 6/ wait for the review by the author
+
+# git reset
+
+===> if you staged files you can undo it by running this command
+
+# git reset 512ce3595e2541c4399a5c649eae05ce73fe96a6
+
+===> if you pushed a bad commit and you wish to revert back to the previous commit and HEAD will move to the commit
+
+# git reset --hard 512ce3595e2541c4399a5c649eae05ce73fe96a6
+
+===> one difference is it delete all the files for that bad commit
+
+# you should never reset code on github !!! (commits that have been pushed to the remote repository)
+
+# git revert 512ce3595e2541c4399a5c649eae05ce73fe96a6
+
+==> the only defference between revert and reset is that commit is still in the commit history
+
+# git commit --amend -m < insert message here>
+
+==> it is used to update last commit bad message
+
+# git commit --amend --no-edit
+
+==> move the file to the staging area with the same message
+
+# git stash
+
+===> move the code that is not ready
+
+# git stash save <name of the stash>
+
+===> save the stash with a name
+
+# git stash list
+
+===> to list all the stashes
+
+# git stash pop
+
+===> to remove the last stash
+
+#git stash apply <index>(retreived from git stash list)
+
+# what is rebase ?
+
+===> take feature branch and rewrite history that will be making it look like that you started working on feature branch with latest update from the master branch or keeps the feature branch in sync with the master branch
+
+# git rebase master
+
+===> create extra branch from your feature and do rebase on that branch
+then make sure that everyting is okay (delete that temporary branch) if it is do it on the feature branch
+
+# git rebase master --interactive
+
+===> replace pick with squash it will pick commits message from all of them and combine them into one single message with that original commit
